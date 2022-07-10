@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+.container{
+	display: flex;
+	width: 80%;
+    margin: auto;
+    margin-top: 59px;
+    margin-right: 109px;
+}
+.one{
+	background: url("https://wallpaper.dog/large/17245033.jpg");
+}
+.two{
+	background: url("https://www.looper.com/img/gallery/the-truth-about-why-arrow-is-ending/intro-1553804507.jpg");
+}
+.three{
+	background: url("https://wegotthiscovered.com/wp-content/uploads/2020/03/batman-1516913886452-1466.jpg");
+}
+.four{
+	background: url("https://i.pinimg.com/originals/9c/9b/13/9c9b1395dc8f931c32c5f9ef3ca65b64.jpg");
+}
+.five{
+	background: url("https://i.pinimg.com/originals/9c/9b/13/9c9b1395dc8f931c32c5f9ef3ca65b64.jpg");
+}
+.six{
+	background: url("https://i.pinimg.com/originals/9c/9b/13/9c9b1395dc8f931c32c5f9ef3ca65b64.jpg");
+}
+.seven{
+	background: url("https://i.pinimg.com/originals/9c/9b/13/9c9b1395dc8f931c32c5f9ef3ca65b64.jpg");
+}
+.eight{
+	background: url("https://i.pinimg.com/originals/9c/9b/13/9c9b1395dc8f931c32c5f9ef3ca65b64.jpg");
+}
+.nine{
+	background: url("https://i.pinimg.com/originals/9c/9b/13/9c9b1395dc8f931c32c5f9ef3ca65b64.jpg");
+}
+.ten{
+	background: url("https://i.pinimg.com/originals/9c/9b/13/9c9b1395dc8f931c32c5f9ef3ca65b64.jpg");
+}
+
+.section{
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
+	cursor: pointer;
+	flex: 0.2;
+	margin:8px;
+	position: relative;
+	transition: all 0.7s ease-out;
+}
+
+
+.section.active{
+	flex: 3;
+}
